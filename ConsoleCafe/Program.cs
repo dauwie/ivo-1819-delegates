@@ -7,7 +7,7 @@ namespace ConsoleCafe
     {
         static void Main(string[] args)
         {
-            int numberOfPints = 10;
+            int numberOfPints = 5;
             PintDish pintDish = new PintDish(numberOfPints);
             pintDish.PintStarted += PintDish_PintStarted;
             pintDish.PintCompleted += PintDish_PintCompleted;
@@ -49,7 +49,7 @@ namespace ConsoleCafe
 
         private static void PintDish_DishCompleted(object sender, DishCompletedArgs e)
         {
-            Console.WriteLine($"Dish complete - enjoy your drinks!");
+            Console.WriteLine($"Dish completed in {e.CreationTimeNeeded.TotalMilliseconds} ms, enjoy your drinks!");
         }
     }
 }
