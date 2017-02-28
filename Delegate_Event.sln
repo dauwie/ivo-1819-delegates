@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsUnitConversion", "ConsUnitConversion\ConsUnitConversion.csproj", "{0A1DD597-F477-4BDA-AD42-8E0F0DB2CBC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCafe", "..\..\..\..\Dropbox (Persoonlijk)\Howest\S4 dotNet Technology\Delegate_Event\ConsoleCafe\ConsoleCafe.csproj", "{A86D8BEA-008C-47A8-81B5-ACF4F7BC1A53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCafe", "ConsoleCafe\ConsoleCafe.csproj", "{A86D8BEA-008C-47A8-81B5-ACF4F7BC1A53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCafe", "..\..\..\..\Dropbox (Persoonlijk)\Howest\S4 dotNet Technology\Delegate_Event\LibCafe\LibCafe.csproj", "{2EBF9567-A6B7-41E5-8276-D8C7E3789640}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCafe", "LibCafe\LibCafe.csproj", "{2EBF9567-A6B7-41E5-8276-D8C7E3789640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
