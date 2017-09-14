@@ -1,7 +1,7 @@
-> Howest
+> Howest / CVO IVO
 > 
-> Bachelor Toegepaste Informatica
+> HBO5 Informatica Programmeren
 > 
-> S4 .Net Technology
+> B3 Programmeren 4
 
 Delegates and events
