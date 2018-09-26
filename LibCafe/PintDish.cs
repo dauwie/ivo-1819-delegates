@@ -21,10 +21,17 @@ namespace LibCafe
         public int PintCount { get { return pintCount; } } // c#6.0 enkel get in property: set enkel in constructor
         public int MaxPints { get; }
 
+        public string DishName { get; set; }
+
         public PintDish(int maxPints)
         {
             MaxPints = maxPints;
             dishStarted = DateTime.Now;
+        }
+
+        public PintDish(int maxPints, string dishName): this(maxPints)
+        {
+            DishName = dishName;
         }
 
         public void AddPint()
